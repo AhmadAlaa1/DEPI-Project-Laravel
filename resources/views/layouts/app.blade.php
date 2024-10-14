@@ -66,8 +66,9 @@
             <div class="flex">
                 <!-- Include Sidebar -->
                 @include('layouts._sidebar')
-
-                @yield('content')
+                <div class="container" style="width: 80%;">
+                    @yield('content')
+                </div>
             </div>
 
 
