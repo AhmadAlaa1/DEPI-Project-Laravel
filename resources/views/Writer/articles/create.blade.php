@@ -5,6 +5,11 @@
 @endsection
 
 @section('content')
+
+
+
+
+
     <div class="container">
         <h1>Articles</h1>
     @section('content')
@@ -25,5 +30,3 @@
                                     {{ session('error') }}
                                 </div>
                             @endif
-
-                            
